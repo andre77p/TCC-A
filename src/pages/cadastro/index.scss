@@ -1,0 +1,79 @@
+.pagina-cadastro {
+
+
+
+    * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+       
+    }
+
+    .cadastro {
+        color: white;
+    }
+    
+    .container-mae{
+        height: 12  50px;
+        background-color: #000000;
+        align-items: center;
+        
+    }
+
+    .img1 {
+        width: 50vh;
+        height: 50vh;
+    }
+
+    .marcas {
+        width: 27.2vh;
+    }
+
+
+    .nprod {
+        width: 170vh;
+        height: 15vh;
+        display: flex;
+    }
+
+    .primeiro-con {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .prqu {
+        width: 50vh;
+        
+        
+    }
+
+    .segundo-con {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .terceiro-con {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .terc-c {
+        flex-direction: column;
+    }
+
+     
+
+
+
+  
+
+
+
+
+
+
+
+
+}
