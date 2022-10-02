@@ -1,18 +1,28 @@
 .pagina-cadastro {
 
-
-
     * {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         
+        
        
+    }
+
+    img {
+        margin-bottom: 13vh;
+    }
+
+    input {
+        border: none;
+        border-radius: 1.5vh;
+        font-family: Andale Mono, monospace;
     }
 
     .cadastro {
         color: white;
+        
     }
     
     .container-mae{
@@ -27,31 +37,61 @@
         height: 50vh;
     }
 
+
     .marcas {
-        width: 27.2vh;
+       
+        width: 70vh;
+        height: 8.5vh;
+        text-align: center;
+        margin-right: 10.5vh;
+        border-radius: 1.5vh;
+        border: none;
+         margin-bottom: 7vh
     }
 
+    .cor {
+        width: 70vh;
+        height: 8.5vh;
+        margin-bottom: 7vh
+        
+    }
 
     .nprod {
-        width: 170vh;
+        width: 150vh;
         height: 15vh;
         display: flex;
+        margin-bottom: 7vh;
+        
     }
 
     .primeiro-con {
         display: flex;
         flex-direction: row;
+
+        
+        
+    }
+
+    .quant {
+        
+        margin-left: 10vh;
+        width: 70vh;
+        height: 8.5vh;
+        margin-bottom: 7vh
     }
 
     .prqu {
-        width: 50vh;
-        
-        
+        width: 70vh;
+        height: 8.5vh;
+        margin-bottom: 7vh;
     }
+
+
 
     .segundo-con {
         display: flex;
         flex-direction: row;
+        
     }
 
     .terceiro-con {
@@ -61,19 +101,32 @@
 
     .terc-c {
         flex-direction: column;
+        margin-left: 10vh;
+        
     }
+
+    .descricao {
+        width: 70vh;
+        height: 20vh;
+        margin-bottom: 10vh;
+    }
+    .tamanho {
+        width: 70vh;
+        height: 8.5vh;
+        margin-top: -9vh;
+        margin-bottom: 7vh;
+    }
+
+        .botao-salvar {
+            background-color: white;
+            padding: 1vh 3vh;
+        }
+  
 
      
 
 
 
   
-
-
-
-
-
-
-
 
 }

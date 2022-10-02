@@ -14,7 +14,7 @@ export default function Index() {
             
                 <div className='primeiro-con'>
                     <input className='prqu' type="text" name="nome" placeholder="Preço"></input>
-                    <input className='prqu' type="text" name="nome" placeholder="Quantidade"></input>
+                    <input className='quant' type="text" name="nome" placeholder="Quantidade"></input>
                 </div>
 
                 <div className='segundo-con'>
@@ -26,14 +26,14 @@ export default function Index() {
                         <option value="">New Balance</option>
                         <option value="">Reebok</option>
                 </select>
-                    <input type="text" name="nome" placeholder="Cor"></input>
+                    <input className='cor' type="text" name="nome" placeholder="Cor"></input>
                 </div>
            
                 <div className='terceiro-con'>
-                    <input type="text" name="nome" placeholder="Descriçao do produto"></input>
+                    <input className='descricao' type="text" name="nome" placeholder="Descriçao do produto"></input>
                     <div className='terc-c'>
-                        <input type="text" name="nome" placeholder="Tamanho"></input>
-                        <a href="../estoque" class="botao-salvar"> Salvar </a>
+                        <input className='tamanho' type="text" name="nome" placeholder="Tamanho"></input>
+                        <a href="../estoque" className='botao-salvar'> Salvar </a>
                     </div>
                 </div>
 
