@@ -5,10 +5,13 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin: 0em;
         
         
        
     }
+
+   
 
     img {
         margin-bottom: 13vh;
@@ -16,8 +19,9 @@
 
     input {
         border: none;
-        border-radius: 1.5vh;
+        border-radius: 1vh;
         font-family: Andale Mono, monospace;
+        font-size: 25px;
     }
 
     .cadastro {
@@ -26,7 +30,7 @@
     }
     
     .container-mae{
-        height: 12  50px;
+        height: 12 50px;
         background-color: #000000;
         align-items: center;
         
@@ -40,24 +44,27 @@
 
     .marcas {
        
-        width: 70vh;
-        height: 8.5vh;
-        text-align: center;
+        width: 57vh;
+        height: 8.5vh; 
         margin-right: 10.5vh;
-        border-radius: 1.5vh;
+        border-radius: 1vh;
+        margin-bottom: 7vh;
+        font-size: 25px;
         border: none;
-         margin-bottom: 7vh
+        
+        
+        
     }
 
     .cor {
-        width: 70vh;
+        width: 57vh;
         height: 8.5vh;
         margin-bottom: 7vh
         
     }
 
     .nprod {
-        width: 150vh;
+        width: 125vh;
         height: 15vh;
         display: flex;
         margin-bottom: 7vh;
@@ -75,13 +82,13 @@
     .quant {
         
         margin-left: 10vh;
-        width: 70vh;
+        width: 57vh;
         height: 8.5vh;
         margin-bottom: 7vh
     }
 
     .prqu {
-        width: 70vh;
+        width: 57vh;
         height: 8.5vh;
         margin-bottom: 7vh;
     }
@@ -106,12 +113,12 @@
     }
 
     .descricao {
-        width: 70vh;
+        width: 57vh;
         height: 20vh;
         margin-bottom: 10vh;
     }
     .tamanho {
-        width: 70vh;
+        width: 57vh;
         height: 8.5vh;
         margin-top: -9vh;
         margin-bottom: 7vh;
@@ -120,6 +127,10 @@
         .botao-salvar {
             background-color: white;
             padding: 1vh 3vh;
+            margin-left: 45.5vh;
+            font-size: 20px;
+            text-decoration: none;
+            color: #000;
         }
   
 
