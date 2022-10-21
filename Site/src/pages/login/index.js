@@ -8,7 +8,7 @@ export default function Index() {
 
 <header class="faixa-header">
     
-    <h2 class="texto-logo">Somente <br></br>administrador</h2>
+    <h2 class="texto-logo">Somente <br></br>Administrador</h2>
 </header>
 
 <section class="faixa-principal">

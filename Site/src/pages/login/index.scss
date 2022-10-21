@@ -8,9 +8,9 @@
     }
     
     .container-mae{
-        height: 12  50px;
-        background-color: #D81313;
+        height: 661px;
         align-items: center;
+        background-color:#000000;
         
     }
     
@@ -21,23 +21,23 @@
         align-items: center;
         height: 20em;
         width: 31em;
-    
+        background-color: rgb(190, 24, 24);
         margin-top: 2em;
         margin-bottom: 7vh;
-        background-color:#ffff;
         border-radius: 16px;
         padding: 90px 50px;
        
     }
     
     .faixa-header {
-        display: flex;
+       display: flex;
         flex-direction: row;
         align-items: center;
         font-size: 25px;
         margin-top: -4vh;
         margin-bottom: -5vh;
         text-align: center;
+        color: #fff;
     }
     
     .texto-login{
@@ -46,6 +46,7 @@
         font-size: 30px;
         margin-bottom: 15px;
         margin-top: 35px;
+        color: #fff
 
     }
     
@@ -76,14 +77,14 @@
    
     .botao-entrar{
         text-align: center;
-        background-color: #EBEBEB;
+        background-color: #000000;
         padding: 1vh 3vh;
        
         margin-bottom: 15vh;
         margin-top: 2.5em;
         margin-left: 47.4vh;
         text-decoration: none;
-        color: #000000;
+        color: #fff;
 
     }
     
