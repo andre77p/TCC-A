@@ -34,7 +34,7 @@ export default function Index() {
         </div>
 
         <div class="botoes">
-            <a href="../estoque" class="botao-entrar"> Entrar </a>
+            <a href="" class="botao-entrar"> Entrar </a>
         </div>
     </div>
 </section>
@@ -43,3 +43,4 @@ export default function Index() {
         </main>
     )
 }
+
