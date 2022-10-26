@@ -1,14 +1,79 @@
-.pagina-adidas{
-    background-color: #000;
-    height: 671px;
-    
+.pagina-adidas {
+    background-color:  #000;
+   
+    border: 1px solid rgb(255, 0, 0);
     
 
-    .menu{
+    .menu {
         display: flex;
         color: #fff;
         font-size: 11px;
-        justify-content: ;
+        justify-content: space-between;
+        font-family: sans-serif;
+        align-items: center;
+        background: rgb(68, 68, 68);
+        padding: 0.2rem;
+        border: 1px solid rgb(255, 0, 0);
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+    }
+
+    .nike {
+        width: 900px;
+        height: 350px;
+        padding: 0px 190px;
+    }
+
+    .venda {
+        display: flex;
         
+        
+    }
+
+    h1 {
+        padding: 0px 20px;
+    }
+
+    .carrinho {
+        height: 60px;
+        width: 50px;
+        padding: 0px 20px;
+    }
+
+    .perfil {
+        height: 50px;
+        width: 50px;
+        padding: 0px 5px;
+    }
+
+    #linha-horizontal {
+        width: 330px;
+        border: 1px solid #fff;
+        }
+
+        #tn {
+            width: 250px;
+            height: 300px;
+            border: 1px solid rgb(231, 0, 0);
+            background: white;
+            }
+
+            .png {
+                margin-right: 20px;
+            }
+
+    input {
+        width:  170px;
+        height: 20px;
+        outline: unset;
+
+    }
+
+    .sne {
+        height: 50px;
+        width: 140px;
     }
 }
