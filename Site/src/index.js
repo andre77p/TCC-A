@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Cadastro from './pages/cadastro';
 import Login from './pages/login';
-import Adidas from './pages/adidas';
+import Nike from './pages/nike';
 
 
 
@@ -21,7 +21,7 @@ root.render(
     <Routes> 
       <Route path='/cadastro' element={<Cadastro />} />
       <Route path='/login' element={<Login />} />
-      <Route path='/adidas' element={<Adidas />} />
+      <Route path='/Nike' element={< Nike />} />
       
     </Routes>
     </BrowserRouter>
