@@ -21,7 +21,7 @@ root.render(
     <Routes> 
       <Route path='/cadastro' element={<Cadastro />} />
       <Route path='/login' element={<Login />} />
-      <Route path='/Nike' element={< Nike />} />
+      <Route path='/nike' element={< Nike />} />
       
     </Routes>
     </BrowserRouter>

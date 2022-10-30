@@ -11,7 +11,7 @@
         justify-content: space-between;
         font-family: sans-serif;
         align-items: center;
-        background: rgb(68, 68, 68);
+        background: #000;
         padding: 0.2rem;
       
     }
@@ -29,6 +29,8 @@
 
     .venda {
         display: flex;
+        margin-bottom: 100px;
+        justify-content: space-around;
         
         
     }
@@ -50,19 +52,26 @@
     }
 
     #linha-horizontal {
-        width: 330px;
+        width: 310px;
         border: 1px solid #fff;
         }
 
         #tn {
             width: 250px;
-            height: 300px;
-           
+            height:280px;
+
             background: white;
+            
+            }
+
+            .heart {
+                margin-bottom: 120px;
             }
 
             .png {
-                margin-right: 20px;
+                width: 210px;
+                height: 160px;
+                
             }
 
     input {
@@ -75,5 +84,8 @@
     .sne {
         height: 50px;
         width: 140px;
+    }
+    p{
+        color: rgb(0, 0, 0);
     }
 }

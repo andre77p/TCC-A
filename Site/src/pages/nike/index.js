@@ -18,8 +18,73 @@ export default function Index(){
             </div>   
             </nav>
             <img className='nike' src='/images/nike1-.png' alt=''/>
+<div>
+            <div className='venda'> 
+
+            <div id="tn">
+                    <img className='heart' src='/images/Heart.png' alt=''/>
+                    <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+                    <div className='preco'>19,90</div>
+                </div>
+
+                <div id="tn">
+                    <img src='/images/Heart.png' alt='' />
+                    <img className='png' src='/images/Nike-T2.png' height='90px'/>
+                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+                    <div className='preco'>19,90</div>
+                </div>
+
+                <div id="tn">
+                    <img src='/images/Heart.png' alt=''/>
+                    <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+                    <div className='preco'>19,90</div>
+                </div>
+
+                <div id="tn">
+                    <img src='/images/Heart.png' alt=''/>
+                    <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+                    <div className='preco'>19,90 </div>
+                </div>  
+                    
+            </div>    
+
 
             <div className='venda'> 
+
+<div id="tn">
+        <img src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+        <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+        <div className='preco'>19,90</div>
+    </div>
+
+    <div id="tn">
+        <img src='/images/Heart.png' alt='' />
+        <img className='png' src='/images/Nike-T2.png' height='90px'/>
+        <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+        <div className='preco'>19,90</div>
+    </div>
+
+    <div id="tn">
+        <img src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+        <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+        <div className='preco'>19,90</div>
+    </div>
+
+    <div id="tn">
+        <img src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+        <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+        <div className='preco'>19,90 </div>
+    </div>  
+        
+</div>    
+
+<div className='venda'> 
 
             <div id="tn">
                     <img src='/images/Heart.png' alt=''/>
@@ -50,6 +115,8 @@ export default function Index(){
                 </div>  
                     
             </div>    
+<p>a</p>
+        </div>
         </main>
     )
 }
