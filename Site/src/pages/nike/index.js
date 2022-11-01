@@ -25,29 +25,29 @@ export default function Index(){
                     <img className='heart' src='/images/Heart.png' alt=''/>
                     <img className='png' src='/images/Nike-T2.png'  height='90px'/>
                     <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
+                    <div className='preco2'><div className='preco'>R$699,99</div> </div>
                 </div>
 
                 <div id="tn">
                     <img className='heart' src='/images/Heart.png' alt=''/>
                     <img className='png' src='/images/Nike-T2.png' height='90px'/>
                     <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
+                    <div className='preco2'><div className='preco'>R$699,99</div> </div>
                 </div>
 
                 <div id="tn">
                     <img className='heart' src='/images/Heart.png' alt=''/>
                     <img className='png' src='/images/Nike-T2.png'  height='90px'/>
                     <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
+                    <div className='preco2'><div className='preco'>R$699,99</div> </div>
                 </div>
 
                 <div id="tn">
                     <img className='heart' src='/images/Heart.png' alt=''/>
                     <img className='png' src='/images/Nike-T2.png'  height='90px'/>
                     <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
-                </div>  
+                    <div className='preco2'><div className='preco'>R$699,99</div> </div>
+                </div>
                     
             </div>    
 
@@ -58,29 +58,28 @@ export default function Index(){
         <img className='heart' src='/images/Heart.png' alt=''/>
         <img className='png' src='/images/Nike-T2.png'  height='90px'/>
         <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-        <div className='preco'>R$699,99</div>
-    </div>
-
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
+                </div>
     <div id="tn">
         <img className='heart' src='/images/Heart.png' alt=''/>
         <img className='png' src='/images/Nike-T2.png' height='90px'/>
         <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-        <div className='preco'>R$699,99</div>
-    </div>
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
+                </div>
 
     <div id="tn">
         <img className='heart' src='/images/Heart.png' alt=''/>
         <img className='png' src='/images/Nike-T2.png'  height='90px'/>
         <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-        <div className='preco'>R$699,99</div>
-    </div>
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
+                </div>
 
     <div id="tn">
         <img className='heart' src='/images/Heart.png' alt=''/>
         <img className='png' src='/images/Nike-T2.png'  height='90px'/>
         <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-        <div className='preco'>R$699,99</div>
-    </div>  
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
+                </div>
         
 </div>    
 
@@ -90,29 +89,28 @@ export default function Index(){
                     <img className='heart' src='/images/Heart.png' alt=''/>
                     <img className='png' src='/images/Nike-T2.png'  height='90px'/>
                     <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
+                    <div className='preco2'><div className='preco'>R$699,99</div> </div>
                 </div>
 
                 <div id="tn">
                 <img className='heart' src='/images/Heart.png' alt=''/>
                     <img className='png' src='/images/Nike-T2.png' height='90px'/>
                     <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
+                    <div className='preco2'><div className='preco'>R$699,99</div> </div>
+                </div>
+                <div id="tn">
+                    <img className='heart' src='/images/Heart.png' alt=''/>
+                    <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+                    <div className='preco2'><div className='preco'>R$699,99</div> </div>
                 </div>
 
                 <div id="tn">
                     <img className='heart' src='/images/Heart.png' alt=''/>
                     <img className='png' src='/images/Nike-T2.png'  height='90px'/>
                     <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
+                    <div className='preco2'><div className='preco'>R$699,99</div> </div>
                 </div>
-
-                <div id="tn">
-                    <img className='heart' src='/images/Heart.png' alt=''/>
-                    <img className='png' src='/images/Nike-T2.png'  height='90px'/>
-                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                   <div className='preco'>R$699,99</div>
-                </div>  
                     
             </div>    
 <p>a</p>

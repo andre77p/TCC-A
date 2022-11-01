@@ -30,7 +30,7 @@ root.render(
       <Route path='/adidas' element={< Adidas />} />
       <Route path='/puma' element={<  Puma />} />
       <Route path='/rebook' element={< Rebook />} />
-      <Route path='/newbalnce' element={< Newbalance />} />
+      <Route path='/newbalance' element={< Newbalance />} />
       
     </Routes>
     </BrowserRouter>

@@ -2,9 +2,9 @@ import './index.scss';
 
 export default function Index(){
     return(
-        <main className='pagina-new balance'>
+        <main className='pagina-newbalance'>
             <nav className='menu'>
-            <img className='sne' src='/images/snek.png' alt=''/>
+            <img className='sne' src='/images/.png' alt=''/>
             <div id="linha-horizontal"></div>
             <div className='text'>
                 <h1>Nike</h1>
@@ -17,106 +17,104 @@ export default function Index(){
                 <img className='perfil' src='/images/cont.png' alt='' />
             </div>   
             </nav>
-            <img className='nike' src='/images/nike1-.png' alt=''/>
+            <img className='newbalance' src='/images/newbalance.png' alt=''/>
 <div>
-            <div className='venda'> 
-
-            <div id="tn">
-                    <img className='heart' src='/images/Heart.png' alt=''/>
-                    <img className='png' src='/images/Nike-T2.png'  height='90px'/>
-                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
-                </div>
-
-                <div id="tn">
-                    <img className='heart' src='/images/Heart.png' alt=''/>
-                    <img className='png' src='/images/Nike-T2.png' height='90px'/>
-                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
-                </div>
-
-                <div id="tn">
-                    <img className='heart' src='/images/Heart.png' alt=''/>
-                    <img className='png' src='/images/Nike-T2.png'  height='90px'/>
-                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
-                </div>
-
-                <div id="tn">
-                    <img className='heart' src='/images/Heart.png' alt=''/>
-                    <img className='png' src='/images/Nike-T2.png'  height='90px'/>
-                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
-                </div>  
-                    
-            </div>    
-
-
-            <div className='venda'> 
+<div className='venda'> 
 
 <div id="tn">
         <img className='heart' src='/images/Heart.png' alt=''/>
         <img className='png' src='/images/Nike-T2.png'  height='90px'/>
         <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-        <div className='preco'>R$699,99</div>
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
     </div>
 
     <div id="tn">
         <img className='heart' src='/images/Heart.png' alt=''/>
         <img className='png' src='/images/Nike-T2.png' height='90px'/>
         <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-        <div className='preco'>R$699,99</div>
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
     </div>
 
     <div id="tn">
         <img className='heart' src='/images/Heart.png' alt=''/>
         <img className='png' src='/images/Nike-T2.png'  height='90px'/>
         <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-        <div className='preco'>R$699,99</div>
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
     </div>
 
     <div id="tn">
         <img className='heart' src='/images/Heart.png' alt=''/>
         <img className='png' src='/images/Nike-T2.png'  height='90px'/>
         <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-        <div className='preco'>R$699,99</div>
-    </div>  
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
+    </div>
         
+</div>    
+
+
+<div className='venda'> 
+
+<div id="tn">
+<img className='heart' src='/images/Heart.png' alt=''/>
+<img className='png' src='/images/Nike-T2.png'  height='90px'/>
+<p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+<div className='preco2'><div className='preco'>R$699,99</div> </div>
+    </div>
+<div id="tn">
+<img className='heart' src='/images/Heart.png' alt=''/>
+<img className='png' src='/images/Nike-T2.png' height='90px'/>
+<p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+<div className='preco2'><div className='preco'>R$699,99</div> </div>
+    </div>
+
+<div id="tn">
+<img className='heart' src='/images/Heart.png' alt=''/>
+<img className='png' src='/images/Nike-T2.png'  height='90px'/>
+<p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+<div className='preco2'><div className='preco'>R$699,99</div> </div>
+    </div>
+
+<div id="tn">
+<img className='heart' src='/images/Heart.png' alt=''/>
+<img className='png' src='/images/Nike-T2.png'  height='90px'/>
+<p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+<div className='preco2'><div className='preco'>R$699,99</div> </div>
+    </div>
+
 </div>    
 
 <div className='venda'> 
 
-            <div id="tn">
-                    <img className='heart' src='/images/Heart.png' alt=''/>
-                    <img className='png' src='/images/Nike-T2.png'  height='90px'/>
-                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
-                </div>
+<div id="tn">
+        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+        <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
+    </div>
 
-                <div id="tn">
-                <img className='heart' src='/images/Heart.png' alt=''/>
-                    <img className='png' src='/images/Nike-T2.png' height='90px'/>
-                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
-                </div>
+    <div id="tn">
+    <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/Nike-T2.png' height='90px'/>
+        <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
+    </div>
+    <div id="tn">
+        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+        <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
+    </div>
 
-                <div id="tn">
-                    <img className='heart' src='/images/Heart.png' alt=''/>
-                    <img className='png' src='/images/Nike-T2.png'  height='90px'/>
-                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                    <div className='preco'>R$699,99</div>
-                </div>
-
-                <div id="tn">
-                    <img className='heart' src='/images/Heart.png' alt=''/>
-                    <img className='png' src='/images/Nike-T2.png'  height='90px'/>
-                    <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                   <div className='preco'>R$699,99</div>
-                </div>  
-                    
-            </div>    
+    <div id="tn">
+        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+        <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
+    </div>
+        
+</div>    
 <p>a</p>
-        </div>
-        </main>
-    )
+</div>
+</main>
+)
 }
