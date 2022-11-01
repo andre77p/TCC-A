@@ -2,7 +2,7 @@ import './index.scss';
 
 export default function Index(){
     return(
-        <main className='pagina-nike'>
+        <main className='pagina-new balance'>
             <nav className='menu'>
             <img className='sne' src='/images/snek.png' alt=''/>
             <div id="linha-horizontal"></div>
