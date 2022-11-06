@@ -1,5 +1,4 @@
-import {con} from './connection.js'
-
+import {con} from './connection';
 
 export async function Login(email, senha) {
     const comando =
