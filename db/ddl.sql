@@ -6,6 +6,7 @@ create table tb_departamento (
     nm_departamento     varchar(200);
 );
 
+
 create table tb_produto (
     id_produto      int primary key auto_increment,
     id_deparmento   int,
@@ -16,10 +17,12 @@ create table tb_produto (
     foreign key (id_departamento) references tb_departamento (id_departamento) 
 );
 
+
 create table tb_categoria (
     id_categoria        int primary key auto_increment,
     nm_categoria        varchar(200)
 );
+
 
 create table tb_produto_categoria (
     id_produto_categoria        int primary key auto_increment,
@@ -29,12 +32,14 @@ create table tb_produto_categoria (
     foreign key (id_produto) references tb_produto (id_produto)
 );
 
+
 create table tb_produto_imagem (
     id_produto_imagem       int primary key auto_increment,
     id_produto              int,
-    ds_imagem               varchar(800),
+    ds_imagem               varchar(900),
     foreign key (id_produto) references tb_produto (id_produto)
 );
+
 
 create table tb_usuario (
     id_usuario      int primary key auto_increment,
@@ -44,6 +49,7 @@ create table tb_usuario (
     ds_cpf          varchar(200),
     ds_genero       varchar(200)        
 );
+
 
 create table tb_login_usuario (
     id_login_usuario        int primary key auto_increment,
@@ -55,6 +61,7 @@ create table tb_login_usuario (
     dt_expiracao_cod        datetime,
     foreign key (id_usuario) references tb_usuario (id_usuario)
 );
+
 
 create table tb_usuario_endereco (
     id_usuario_endereco         int primary key auto_increment,
@@ -70,12 +77,14 @@ create table tb_usuario_endereco (
     foreign key (id_usuario) references tb_usuario (id_usuario)
 );
 
+
 create table tb_cupom (
     id_cupom        int primary key auto_increment,
     cod_cupom       varchar(200),
     vl_cupom        decimal(15, 2),
     qtd_restante    int
 );
+
 
 create table tb_pedido (
     id_pedido               int primary key auto_increment,
@@ -93,6 +102,7 @@ create table tb_pedido (
     foreign key (id_cupom) references tb_cupom (id_cupom)
 );
 
+
 create table tb_pedido_item (
     id_pedido_item      int primary key auto_increment,
     id_pedido           int,
@@ -102,6 +112,7 @@ create table tb_pedido_item (
     foreign key (id_pedido) references tb_pedido (id_pedido),
     foreign key (id_pedido_item) references tb_pedido_item (id_pedido_item)
 );
+
 
 create table tb_pagamento_cartao (
     id_pagamento_cartao         int primary key auto_increment,
