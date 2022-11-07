@@ -1,10 +1,11 @@
+CREATE DATABASE tccTenis;
 use tccTenis;
 
--- usuario login
+
 insert into tb_usuario (nm_usuario, ds_email, ds_senha)
 	          values ('andre', 'dede@gmail.com', '1234');
     
--- efetuar login
+
 select id_usuario		id,
 	   nm_usuario		nome,
        ds_email			email
@@ -12,10 +13,10 @@ select id_usuario		id,
    where ds_email	    = 'dede@gmail.com'
 	 and ds_senha		= '1234';
 
--- produtos
+
 insert into tb_produto (id_departamento, nm_produto, vl_preco, dt_criacao, bt_destaque)
                values (1, 'Tenis A', 699.99, '2019-10-02', true);
--- categoria do produto
+
 insert into tb_produto_categoria (id_departamento, id_produto)
                values (1, 1);
 
