@@ -2,19 +2,19 @@ CREATE DATABASE tccTenis;
 use tccTenis;
 
 create table tb_departamento (
-    id_deparmento       int primary key auto_increment,
-    nm_departamento     varchar(200)
+    id_departamento       int primary key auto_increment,
+    nm_departamento       varchar(200)
 );
 
 
 create table tb_produto (
-    id_produto      int primary key auto_increment,
-    id_deparmento     int,
-    nm_produto      varchar(200),
-    vl_preco        decimal(10, 2),
-    dt_criacao      datetime,
-    bt_destaque     boolean,
-    foreign key (id_deparmento ) references tb_departamento (id_deparmento ) 
+    id_produto          int primary key auto_increment,
+    id_departamento     int,
+    nm_produto          varchar(200),
+    vl_preco            decimal(10, 2),
+    dt_criacao          datetime,
+    bt_destaque         boolean,
+    foreign key (id_departamento ) references tb_departamento (id_departamento ) 
 );
 
 
