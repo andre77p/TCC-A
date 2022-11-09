@@ -199,6 +199,8 @@ export default function Pedido() {
                                 <option value={1}>01x sem Juros</option>
                                 <option value={2}>02x sem Juros</option>
                                 <option value={3}>03x sem Juros</option>
+                                <option value={4}>04x sem Juros</option>
+                                <option value={5}>05x sem Juros</option>
                             </select>
                         </div>
                         <div />
