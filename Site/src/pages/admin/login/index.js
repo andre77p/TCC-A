@@ -17,7 +17,7 @@ export default function Login() {
 
                     <div>
                         <label> Senhha: </label>
-                        <input type='password' placeholder="***" />
+                        <input type='password' placeholder="****" />
                     </div>
 
                     <div className='btn-right'>
