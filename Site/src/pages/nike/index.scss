@@ -1,8 +1,5 @@
-.pagina-adidas{
-    
+.pagina-nike {
     background-color:  #000;
-
-
 
     .menu {
         display: flex;
@@ -72,18 +69,15 @@
                 color: #fff;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-weight: bold
-  
-                   
+                display flex;
+       
             }
 
+            .preco2{
+                display: flex;
+                justify-content: flex-end;
 
-        }
-
-        .preco2{
-            display: flex;
-            justify-content: flex-end;
-
-        }
+            }
 
             .heart {
                 margin-bottom: 120px;
@@ -109,4 +103,4 @@
     p{
         color: rgb(0, 0, 0);
     }
-
+}

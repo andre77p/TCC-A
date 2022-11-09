@@ -2,7 +2,7 @@ import './index.scss';
 
 export default function Index(){
     return(
-        <main className='pagina-adidas'>
+        <main className='pagina-puma'>
             <nav className='menu'>
             <img className='sne' src='/images/snek.png' alt=''/>
             <div id="linha-horizontal"></div>
@@ -17,7 +17,7 @@ export default function Index(){
                 <img className='perfil' src='/images/cont.png' alt='' />
             </div>   
             </nav>
-            <img className='adidas' src='/images/adidas-.png' alt=''/>
+            <img className='puma' src='/images/puma.png' alt=''/>
 <div>
 <div className='venda'> 
 

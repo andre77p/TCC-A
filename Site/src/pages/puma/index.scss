@@ -1,8 +1,7 @@
-.pagina-adidas{
-    
+.pagina-puma{
+
     background-color:  #000;
-
-
+    
 
     .menu {
         display: flex;
@@ -72,18 +71,18 @@
                 color: #fff;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-weight: bold
-  
+                  
+                
                    
             }
+            .preco2{
+                display: flex;
+                justify-content: flex-end;
 
+            }
+            
+            
 
-        }
-
-        .preco2{
-            display: flex;
-            justify-content: flex-end;
-
-        }
 
             .heart {
                 margin-bottom: 120px;
@@ -110,3 +109,4 @@
         color: rgb(0, 0, 0);
     }
 
+}
