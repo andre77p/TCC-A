@@ -23,7 +23,8 @@ export default function AppRoutes() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Home/>} />
+                <Route path='/' element={<Nike/>} />
+                <Route path='/home' element={<Home/>} />
                 <Route path='/login' element={<LoginCli />} />
                 <Route path='/produto/:id/detalhe' element={<ProdutoDetalhe />} />
                 <Route path='/carrinho' element={<Carrinho />} />

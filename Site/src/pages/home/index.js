@@ -26,10 +26,20 @@ export default function Home() {
 
     return (
         <div className='pagina-home'>
-            <div className='cabecalho'>
-                <h1> Seja Bem-Vindo a SNEAKERS-WORLD! </h1>
-                <button onClick={irCarrinho}> Ir para o Carrinho </button>
+           <nav className='menu'>
+            <img className='sne' src='/images/snek.png' alt=''/>
+            <div id="linha-horizontal"></div>
+            <div className='text'>
+                <h1>Nike</h1>
+                <h1>Adidas</h1>
+                <h1>Puma</h1>
+                <h1>Rebook</h1>
+                <h1>New Balance</h1>
+                <input class="pesquisa" type="text" name="nome" placeholder="O que você procura?" autofocus />
+                <img className='carrinho' src='/images/car.png' alt='' onClick={irCarrinho}/>
+                <img className='perfil' src='/images/cont.png' alt='' />
             </div>
+            </nav>
 
             <div className="produtos-container">
                 {produtos.map(item => 
