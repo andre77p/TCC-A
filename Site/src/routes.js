@@ -17,25 +17,26 @@ import ProdutoDetalhe from './pages/produtoDetalhe';
 import Carrinho from './pages/carrinho';
 import Pedido from './pages/pedido';
 import Cadastro from './pages/cadastro';
-import Consultar from './pages/consultar'
+
+
 
 export default function AppRoutes() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Nike/>} />
+                <Route path='/' element={<Home/>} />
                 <Route path='/home' element={<Home/>} />
                 <Route path='/login' element={<LoginCli />} />
                 <Route path='/produto/:id/detalhe' element={<ProdutoDetalhe />} />
                 <Route path='/carrinho' element={<Carrinho />} />
                 <Route path='/pedido' element={<Pedido />} />
-                <Route path='/consultar' element={<Consultar />} />
                 <Route path='/cadastro' element={<Cadastro />} />
                 <Route path='/adidas' element={<Adidas />} />
                 <Route path='/nike' element={<Nike />} />
                 <Route path='/puma' element={<Puma />} />
                 <Route path='/newbalance' element={<NewBalance />} />
                 <Route path='/reebok' element={<Reebok />} />
+                
                 
                 
                 <Route path='/admin' element={<AdminHome />} />

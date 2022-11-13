@@ -52,6 +52,7 @@ export default function Home() {
         <div className='pagina-home'>
            <nav className='menu'>
             <img className='sne' src='/images/snek.png' alt=''/>
+            <img className='logo' src='/images/sneak.jpg' alt=''/>
             
             <div className='text'>
             <h1 onClick={irNike}>Nike</h1>
@@ -59,7 +60,7 @@ export default function Home() {
                 <h1 onClick={irPuma}>Puma</h1>
                 <h1 onClick={irReebok}>Rebook</h1>
                 <h1 onClick={irNewbalance}>New Balance</h1>
-                <input class="pesquisa" type="text" name="nome" placeholder="O que você procura?" autofocus />
+                <input class="pesquisa" type="text" name="nome" placeholder="O que você procura?" autofocus  />
                 <img className='carrinho' src='/images/car.png' alt='' onClick={irCarrinho}/>
                 <img className='perfil' src='/images/cont.png' alt='' />
             </div>
