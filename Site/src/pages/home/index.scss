@@ -1,27 +1,8 @@
 .pagina-home {
-    padding: 1.5em;
-    background-color: #000;
-    min-height: 100vh;
-
-   
-
-    .produtos-container {
-        display: flex;
-        flex-wrap: wrap;
-
-    }
+    background-color:  #000;
 
 
-    .text {
-        display: flex;
-        align-items: center;
-        color: #fff;
-    
-    }
-
-
-
-    menu {
+    .menu {
         display: flex;
         color: #fff;
         font-size: 11px;
@@ -33,12 +14,91 @@
       
     }
 
-    .logo{
-
+    .text {
+        display: flex;
         align-items: center;
-
     }
 
     
 
+    h1 {
+        padding: 0px 20px;
+    }
+
+    .carrinho {
+        width: 60px;
+        height: 60PX;
+    }
+
+    .perfil {
+        height: 50px;
+        width: 50px; 
+        }
+   
+
+    .sneakers {
+        width: 1200px;
+        height: 400px;
+       justify-content: center;
+
+    }
+
+
+    .lading{
+
+        width: 1200px;
+        height: 400px;
+       justify-content: center;
+
+
+    }
+
+    .venda {
+        display: flex;
+        margin-bottom: 100px;
+        justify-content: space-around;
+        
+        
+    }
+
+
+    #tn {
+        width: 250px;
+        height:250px;
+        background: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        
+        }
+
+        .preco{
+            background: rgb(255, 2, 2);
+            width: 90px;
+            height:50px;
+            color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold
+            
+        }
+
+
+
+        .preco2{
+            display: flex;
+            justify-content: flex-end;
+
+        } 
+
+        .procurado{
+                 
+
+            color: #fff;
+        }
+
+        .png {
+            width: 210px;
+            height: 150px;
+            
+        }
+   
 }

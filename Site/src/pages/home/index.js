@@ -52,10 +52,11 @@ export default function Home() {
         <div className='pagina-home'>
            <nav className='menu'>
             <img className='sne' src='/images/snek.png' alt=''/>
-            <img className='logo' src='/images/sneak.jpg' alt=''/>
+          
+          
             
             <div className='text'>
-            <h1 onClick={irNike}>Nike</h1>
+            <h1  onClick={irNike}>Nike</h1>
                 <h1 onClick={irAdidas}>Adidas</h1>
                 <h1 onClick={irPuma}>Puma</h1>
                 <h1 onClick={irReebok}>Rebook</h1>
@@ -65,13 +66,105 @@ export default function Home() {
                 <img className='perfil' src='/images/cont.png' alt='' />
             </div>
             </nav>
+            <img className='sneakers' src='/images/sneak.jpg' alt=''/> 
+            <img className='lading' src='/images/ladingpage.jpg' alt=''/> 
+            <h1 className='procurado'>Mais Procurado:</h1>
+  <div>
+<div className='venda'> 
 
+
+<div id="tn"> 
+        
+        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/airmax.webp'  height='90px'/>
+        <p>TÊNIS NIKE AIR MAX PLUS PRETO/PRATEADO</p>
+        <div className='preco2'><div className='preco'>R$699,99</div> 
+  </div>
+    </div>
+
+    <div id="tn">
+        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/puma2.webp' height='90px'/>
+        <p>TÊNIS PUMA X RAY 2 SQUARE BDP Black </p>
+        <div className='preco2'><div className='preco'>R$343,92</div> </div>
+    </div>
+
+    <div id="tn">
+        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+        <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY </p>
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
+    </div>
+
+    <div id="tn">
+        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/jordan.jpg'  height='90px'/>
+        <p>AIR JORDAN 4 RETRO - METALLIC PURPLE</p>
+        <div className='preco2'><div className='preco'>R$585,90</div> </div>
+    </div>
+        
+</div> 
+
+
+
+<div className='venda'> 
+
+<div id="tn"> 
+        
+        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/balance.webp'  height='90px'/>
+        <p>TÊNIS NEW BALANCE 550 WHITE TEAM RED</p>
+        <div className='preco2'><div className='preco'>R$899,99</div> 
+  </div>
+    </div>
+
+    <div id="tn">
+        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/adidas4.webp' height='90px'/>
+        <p>TÊNIS ADIDAS BREAKNET MASCULINO - BRANCO+AZUL</p>
+        <div className='preco2'><div className='preco'>R$699,99</div> </div>
+    </div>
+
+    <div id="tn">
+        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/pumaf.jpg'  height='90px'/>
+        <p>TÊNIS X-RAY PUMA LANÇAMENTO ORIGINAL </p>
+        <div className='preco2'><div className='preco'>R$427,70</div> </div>
+    </div>
+
+    <div id="tn">
+        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='png' src='/images/jordan2.jpeg'  height='90px'/>
+        <p>TÊNIS NIKE AIR JORDAN 1 LOW ' WHITE WOLF GREY '</p>
+        <div className='preco2'><div className='preco'>R$749,00</div> </div>
+    </div>
+        
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+        </div> 
             <div className="produtos-container">
                 {produtos.map(item => 
                     <CardProduto item={item} />
                 )}
-                
             </div>
         </div>
     )
-}
+}  
