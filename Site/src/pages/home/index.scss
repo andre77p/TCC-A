@@ -90,9 +90,8 @@
         } 
 
         .procurado{
-                 
-
             color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
         .png {
@@ -101,4 +100,33 @@
             
         }
    
+        .rodape{
+            background-color: rgba(251, 251, 251, 0.527);
+            display: flex;
+            align-items: center;
+            width: 10000px;
+            height: 350px;
+        }
+
+
+        .div1{
+            color: #000;
+        }
+
+
+        .div2{
+            color: #000;
+        }
+
+        
+        
+        .div3{
+            color: #000;
+        }
+        
+
+        .div{
+            color: #000;
+
+        }
 }

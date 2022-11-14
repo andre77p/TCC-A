@@ -6,8 +6,9 @@ import Nike from './pages/nike';
 import Puma from './pages/puma';
 import NewBalance from './pages/newbalance/index';
 import Reebok from './pages/reebok';
+import Perfil from './pages/perfil';
 
-import AdminHome from './pages/admin/home';
+
 import Login from './pages/admin/login'
 import Produto from './pages/admin/produto'
 import ConsultarProduto from './pages/admin/consultarProduto'
@@ -36,10 +37,11 @@ export default function AppRoutes() {
                 <Route path='/puma' element={<Puma />} />
                 <Route path='/newbalance' element={<NewBalance />} />
                 <Route path='/reebok' element={<Reebok />} />
+                <Route path='/perfil' element={<Perfil />} />
                 
                 
                 
-                <Route path='/admin' element={<AdminHome />} />
+               
                 <Route path='/admin/login' element={<Login />} />
                 <Route path='/admin/produto' element={<Produto />} />
                 <Route path='/admin/produto/:id' element={<Produto />} />

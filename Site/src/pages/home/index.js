@@ -68,7 +68,7 @@ export default function Home() {
             </nav>
             <img className='sneakers' src='/images/sneak.jpg' alt=''/> 
             <img className='lading' src='/images/ladingpage.jpg' alt=''/> 
-            <h1 className='procurado'>Mais Procurado:</h1>
+            <h1 className='procurado'>Mais Procurados:</h1>
   <div>
 <div className='venda'> 
 
@@ -120,8 +120,8 @@ export default function Home() {
 
     <div id="tn">
         <img className='heart' src='/images/Heart.png' alt=''/>
-        <img className='png' src='/images/adidas4.webp' height='90px'/>
-        <p>TÊNIS ADIDAS BREAKNET MASCULINO - BRANCO+AZUL</p>
+        <img className='png' src='/images/adidas5.webp' height='90px'/>
+        <p> Tênis Adidas Kaptir Super Feminino - Branco</p>
         <div className='preco2'><div className='preco'>R$699,99</div> </div>
     </div>
 
@@ -142,21 +142,39 @@ export default function Home() {
 </div> 
 
 
+<div className='rodape'> 
+   
+   <div className='div1'> 
+        <h1> SNEAKERS -WORLD-</h1>
+         <p className='div'>Cadastre-se para receber novidades Cartão Presente</p>
+          <p className='div'>Área Restrita</p>
+</div>
 
 
+     <div className='div2'>  
+
+        <h1>LOJA</h1>
+         <p className='div' >Coleção Masculina</p>
+         <p className='div'>Coleção Feminina</p>
+         <p className='div'>Coleção Infantil</p>
+         <p className='div'>Coleção Esporte</p>
+
+      </div>
+
+      <div className='div3'>
+
+    <h1 className='div'>AJUDA & CONTATO</h1>
+    <h1 className='div'>FAQ</h1>
+    <h1 className='div'>POR TELEFONE</h1>
+    <h1 className='div'>(11) 9703-1607 </h1> 
+    
+
+</div>
+
+       
 
 
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
   
         </div> 
