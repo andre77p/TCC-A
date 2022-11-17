@@ -205,8 +205,8 @@ export default function Home() {
 <div className='rodape'> 
    
    <div className='div1'> 
-        <h1> SNEAKERS -WORLD-</h1>
-         <p className='div'>Cadastre-se para receber novidades Cartão Presente</p>
+        <h1 className='sn'> SNEAKERS -WORLD-</h1>
+         
           <p className='div'>Área Restrita</p>
 </div>
 
@@ -223,10 +223,10 @@ export default function Home() {
 
       <div className='div3'>
 
-    <h1 className='div'>AJUDA & CONTATO</h1>
-    <h1 className='div'>FAQ</h1>
-    <h1 className='div'>POR TELEFONE</h1>
-    <h1 className='div'>(11) 9703-1607 </h1> 
+    <h1 className='div8'>AJUDA & CONTATO</h1>
+    <h1 className='div8'>FAQ</h1>
+    <h1 className='div8'>POR TELEFONE</h1>
+    <h1 className='div8'>(11) 9703-1607 </h1> 
     
 
 </div>

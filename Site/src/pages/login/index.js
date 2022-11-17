@@ -38,14 +38,14 @@ export default function Login() {
 
                 <div className='form'>
 
-                    <div>
+                    <div className='pri'>
                         <label> E-mail: </label>
-                        <input type='text' placeholder="Ex.: cliente@devmonk.com.br" value={email} onChange={e => setEmail(e.target.value)} />
+                        <input   type='text' placeholder="Ex: email@gmail.com" value={email} onChange={e => setEmail(e.target.value)} />
                     </div>
 
-                    <div>
+                    <div className='seg'>
                         <label> Senha: </label>
-                        <input type='password' placeholder="***" value={senha} onChange={e => setSenha(e.target.value)}  />
+                        <input type='password' placeholder="*****" value={senha} onChange={e => setSenha(e.target.value)}  />
                     </div>
 
                     <div className='btn-right'>
@@ -61,3 +61,7 @@ export default function Login() {
         </div>
     )
 }
+
+
+
+

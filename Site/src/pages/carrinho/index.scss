@@ -2,6 +2,9 @@
     background-color: #000;
   
 
+    .p{
+    padding-top: 100px;
+    }
 
     .menu{
         display: flex;
@@ -28,7 +31,7 @@
         width: 10000px;
         height:250px;
         background: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
         }
 
 
@@ -54,7 +57,6 @@
             float: left;
             border: transparent thin solid;
             padding: 1px;
-            margin: 0px 10px 10px 0;
             max-width: 190px;
 
           }
@@ -73,14 +75,11 @@
         flex-grow: 1;
     }
 
-    .itens>div:first-child {
-        margin-top: 0px;
-    }
-
 
         button {
             margin-top: 6px;
             font-size: 12px;
+            background-color: red;
         }
 
   
