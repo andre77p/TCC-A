@@ -4,7 +4,62 @@ import { listarProdutosInicio } from '../../api/produtoAPI'
 import CardProduto from '../../components/cardProduto'
 import './index.scss'
 
+import { useParams } from 'react-router-dom'
+import Storage from 'local-storage'
+import { toast } from 'react-toastify'
+import { buscarProdutoPorId } from '../../api/produtoAPI';
+import { API_URL } from '../../api/config';
+
+
+
+
 export default function Home() {
+
+    const [produto, setProduto] = useState({ categorias: [], imagens: [], info: {} })
+    const [imagemPrincipal, setImagemPrincipal] = useState(0);
+
+    const { id } = useParams();
+
+
+    async function carregarPagina() {
+        const r = await buscarProdutoPorId(id);
+        setProduto(r);
+    }
+
+    function exibirImagemPrincipal() {
+        if (produto.imagens.length > 0) {
+            return API_URL + '/' + produto.imagens[imagemPrincipal];
+        }
+        else {
+            return '/produto-padrao.png';
+        }
+    }
+
+    function exibirImagemProduto(imagem) {
+        return API_URL + '/' + imagem;
+    }
+
+
+    function adicionarAoCarrinho() {
+        let carrinho = [];
+        if (Storage('carrinho')) {
+            carrinho = Storage('carrinho');
+        }
+
+
+        if (!carrinho.find(item => item.id === id)) {
+            carrinho.push({
+                id: id,
+                qtd: 1
+            })
+
+            Storage('carrinho', carrinho);
+        }
+
+        toast.dark('Produto adicionado ao carrinho!');
+    }
+
+    
     const [produtos, setProdutos] = useState([]);
 
     const navigate = useNavigate();
@@ -48,6 +103,11 @@ export default function Home() {
         navigate('/newbalance')
     }
 
+
+    function irPerfil() {
+        navigate('/perfil')
+    }
+
     return (
         <div className='pagina-home'>
            <nav className='menu'>
@@ -63,7 +123,7 @@ export default function Home() {
                 <h1 onClick={irNewbalance}>New Balance</h1>
                 <input class="pesquisa" type="text" name="nome" placeholder="O que você procura?" autofocus  />
                 <img className='carrinho' src='/images/car.png' alt='' onClick={irCarrinho}/>
-                <img className='perfil' src='/images/cont.png' alt='' />
+                <img className='perfil' src='/images/cont.png' alt='' onClick={irPerfil} />
             </div>
             </nav>
             <img className='sneakers' src='/images/sneak.jpg' alt=''/> 
@@ -75,7 +135,7 @@ export default function Home() {
 
 <div id="tn"> 
         
-        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='heart' src='/images/Heart.png' alt='' onClick={adicionarAoCarrinho}/>
         <img className='png' src='/images/airmax.webp'  height='90px'/>
         <p>TÊNIS NIKE AIR MAX PLUS PRETO/PRATEADO</p>
         <div className='preco2'><div className='preco'>R$699,99</div> 
@@ -83,21 +143,21 @@ export default function Home() {
     </div>
 
     <div id="tn">
-        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='heart' src='/images/Heart.png' alt=''  onClick={adicionarAoCarrinho}/>
         <img className='png' src='/images/puma2.webp' height='90px'/>
         <p>TÊNIS PUMA X RAY 2 SQUARE BDP Black </p>
         <div className='preco2'><div className='preco'>R$343,92</div> </div>
     </div>
 
     <div id="tn">
-        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='heart' src='/images/Heart.png' alt=''  onClick={adicionarAoCarrinho}/>
         <img className='png' src='/images/Nike-T2.png'  height='90px'/>
         <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY </p>
         <div className='preco2'><div className='preco'>R$699,99</div> </div>
     </div>
 
     <div id="tn">
-        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='heart' src='/images/Heart.png' alt=''  onClick={adicionarAoCarrinho}/>
         <img className='png' src='/images/jordan.jpg'  height='90px'/>
         <p>AIR JORDAN 4 RETRO - METALLIC PURPLE</p>
         <div className='preco2'><div className='preco'>R$585,90</div> </div>
@@ -111,7 +171,7 @@ export default function Home() {
 
 <div id="tn"> 
         
-        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='heart' src='/images/Heart.png' alt=''  onClick={adicionarAoCarrinho}/>
         <img className='png' src='/images/balance.webp'  height='90px'/>
         <p>TÊNIS NEW BALANCE 550 WHITE TEAM RED</p>
         <div className='preco2'><div className='preco'>R$899,99</div> 
@@ -119,21 +179,21 @@ export default function Home() {
     </div>
 
     <div id="tn">
-        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='heart' src='/images/Heart.png' alt=''  onClick={adicionarAoCarrinho}/>
         <img className='png' src='/images/adidas5.webp' height='90px'/>
         <p> Tênis Adidas Kaptir Super Feminino - Branco</p>
         <div className='preco2'><div className='preco'>R$699,99</div> </div>
     </div>
 
     <div id="tn">
-        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='heart' src='/images/Heart.png' alt=''  onClick={adicionarAoCarrinho}/>
         <img className='png' src='/images/pumaf.jpg'  height='90px'/>
         <p>TÊNIS X-RAY PUMA LANÇAMENTO ORIGINAL </p>
         <div className='preco2'><div className='preco'>R$427,70</div> </div>
     </div>
 
     <div id="tn">
-        <img className='heart' src='/images/Heart.png' alt=''/>
+        <img className='heart' src='/images/Heart.png' alt=''  onClick={adicionarAoCarrinho}/>
         <img className='png' src='/images/jordan2.jpeg'  height='90px'/>
         <p>TÊNIS NIKE AIR JORDAN 1 LOW ' WHITE WOLF GREY '</p>
         <div className='preco2'><div className='preco'>R$749,00</div> </div>

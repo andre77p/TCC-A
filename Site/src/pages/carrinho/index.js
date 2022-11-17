@@ -4,18 +4,18 @@ import { useEffect, useState } from 'react'
 import Storage from 'local-storage'
 import { buscarProdutoPorId } from '../../api/produtoAPI';
 import CarrinhoItem from '../../components/carrinhoItem';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 export default function Carrinho() {
     const [itens, setItens] = useState([]);
 
+    
 
     const navigate = useNavigate();
 
     function irPedido() {
         navigate('/pedido')
     }
-
 
 
     function qtdItens() {
@@ -65,6 +65,8 @@ export default function Carrinho() {
     }, [])
 
 
+
+
     return (
        
         <main className='pagina-carrinho'>
@@ -77,7 +79,7 @@ export default function Carrinho() {
         <div  className='venda'>
 
         <div id="tn">
-                <img className='lixeira' src='/images/lixeira.png' alt=''/>
+                <img className='lixeira' src='/images/lixeira.png' alt='' />
                 <img className='png' src='/images/Nike-T2.png'  height='90px'/>
                 <p className='text'>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
                 <p className='preco'>R$ 1.499,99 ou 12x de R$ 125,00</p>
