@@ -8,14 +8,14 @@ server.post('/api/login', async (req, resp) => {
     try {
         const { email, senha } = req.body;
 
-        const r = await login(email, senha);
-        if (!r) {
+        const v = await login(email, senha);
+        if (!v) {
             throw new Error('Credenciais inválidas');
         }
 
         resp.send({
-            id: r.id,
-            nome: r.nome
+            id: v.id,
+            nome: v.nome
         })
     }
     catch (err) {

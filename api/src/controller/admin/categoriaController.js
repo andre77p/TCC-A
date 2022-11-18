@@ -3,7 +3,7 @@ import { listarCategorias } from "../../repository/categoriaRepository";
 import { Router } from "express";
 const server = Router();
 
-server.get('/admin/categoria', async (req, resp) => {
+server.get('/admin/categoria', async (resp) => {
     try {
         const linhas = await listarCategorias();
         resp.send(linhas);

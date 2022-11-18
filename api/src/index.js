@@ -1,6 +1,5 @@
 import 'dotenv/config'
 
-
 import adminCategoriaController from './controller/admin/categoriaController';
 import adminDepartamentoController from './controller/admin/departamentoController';
 import adminProdutoController from './controller/admin/produtoController';
@@ -28,9 +27,6 @@ server.use(enderecoController);
 server.use(loginClienteController);
 server.use(pedidoController);
 server.use(produtoController);
-
-server.use('/storage/produto', express.static('storage/produto'));
-
 
 const PORT = process.env.PORT;
 server.listen(PORT, () => console.log("API subiu na porta" + PORT));

@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { inserirPagamento, inserirPedido, inserirPedidoItem } from "../repository/pedidoRepository";
 import { buscarProdutoPorId } from "../repository/produtoRepository";
-import { acharCupom, criarNotaFiscal, criarNovoPedido } from "../service/novoProdutoService";
+import { acharCupom, criarNovoPedido } from "../service/novoProdutoService";
 const server = Router();
 
 

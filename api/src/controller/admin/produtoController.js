@@ -68,8 +68,8 @@ server.put('/admin/produto/:id/imagem', upload.array('imagens'), async (req, res
 
 server.get('/admin/produto', async (req, resp) => {
     try {
-        const r = await buscarProdutos();
-        resp.send(r);
+        const v = await buscarProdutos();
+        resp.send(v);
     }
     catch (err) {
         resp.status(400).send({

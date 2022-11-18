@@ -7,9 +7,8 @@ server.get('/api/usuario/:id/endereco', async (req, resp) => {
     try {
         const id = req.params.id;
         
-        const r = await listar(id);
-        
-        resp.send(r);
+        const v = await listar(id);
+        resp.send(v);
     }
     catch (err) {
         resp.status(400).send({
