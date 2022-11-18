@@ -66,7 +66,7 @@ export default function Index(){
     }
 
     async function listar() {
-        const r = await listarProdutosInicio();
+        const r = await listar();
         setProdutos(r);
     }
 

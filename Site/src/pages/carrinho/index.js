@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import Storage from 'local-storage'
 import { buscarProdutoPorId } from '../../api/produtoAPI';
 import CarrinhoItem from '../../components/carrinhoItem';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default function Carrinho() {
     const [itens, setItens] = useState([]);
