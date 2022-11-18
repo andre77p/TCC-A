@@ -16,7 +16,7 @@ import { API_URL } from '../../api/config';
 export default function Home() {
 
     const [produto, setProduto] = useState({ categorias: [], imagens: [], info: {} })
-    const [imagemPrincipal, setImagemPrincipal] = useState(0);
+    const [imagemPrincipal] = useState(0);
 
     const { id } = useParams();
 
@@ -33,10 +33,6 @@ export default function Home() {
         else {
             return '/produto-padrao.png';
         }
-    }
-
-    function exibirImagemProduto(imagem) {
-        return API_URL + '/' + imagem;
     }
 
 

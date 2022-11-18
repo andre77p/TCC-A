@@ -1,16 +1,14 @@
 import './index.scss'
 import { useEffect, useState } from 'react'
 import ModalEndereco from '../../components/modalEndereco'
-import Storage, { set } from 'local-storage'
+import Storage from 'local-storage'
 
 import { useNavigate } from 'react-router-dom'
 import { listar } from '../../api/enderecoAPI'
 import CardEndereco from '../../components/cardEndereco';
 import { buscarProdutoPorId } from '../../api/produtoAPI'
-import { API_URL } from '../../api/config'
 import { salvarNovoPedido } from '../../api/pedidoAPI'
 import { toast } from 'react-toastify'
-
 
 
 
@@ -37,8 +35,8 @@ export default function Pedido() {
 
     async function carregarEnderecos() {
         const id = Storage('cliente-logado').id;
-        const r = await listar(id);
-        setEnderecos(r);
+        const v = await listar(id);
+        setEnderecos(v);
     }
 
     function exibirNovoEndereco() {
@@ -80,15 +78,6 @@ export default function Pedido() {
         return total;
     }
 
-    function exibirImagem(item) {
-        if (item.produto.imagens.length > 0)
-            return API_URL + '/' + item.produto.imagens[0];
-        else
-            return '/produto-padrao.png';
-    }
-
-
-
     async function salvarPedido() {
 
         try {
@@ -112,8 +101,8 @@ export default function Pedido() {
                 produtos: produtos
             }
 
-            const r = await salvarNovoPedido(id, pedido);
-            toast.dark('Pedido foi inserido com sucesso');
+            const v = await salvarNovoPedido(id, pedido);
+            v.toast.dark('Pedido foi inserido com sucesso');
             Storage('carrinho', []);
             navigate('/');
 
@@ -155,7 +144,7 @@ export default function Pedido() {
                     <div className='enderecos'>
 
                         {enderecos.map(item =>
-                            <CardEndereco item={item} selecionar={setIdEndereco} selecionado={item.id == idEndereco} />
+                            <CardEndereco item={item} selecionar={setIdEndereco} selecionado={item.id === idEndereco} />
                         )}
                     </div>
 
@@ -201,6 +190,8 @@ export default function Pedido() {
                                 <option value={3}>03x sem Juros</option>
                                 <option value={4}>04x sem Juros</option>
                                 <option value={5}>05x sem Juros</option>
+                                <option value={6}>06x sem Juros</option>
+                                <option value={7}>07x sem Juros</option>
                             </select>
                         </div>
                         <div />
@@ -252,7 +243,6 @@ export default function Pedido() {
                             <tr>
                                 <td>
                                     <div className='celula-item'>
-                                        <img src={exibirImagem(item)} />
                                         <div>
                                             <h3> {item.produto.info.produto} </h3>
                                             <h4> {item.produto.info.nomeDepartamento} </h4>

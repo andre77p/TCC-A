@@ -75,12 +75,6 @@ export default function Index(){
         listar();
     }, [])
 
-
-    function irNike() {
-        navigate('/nike')
-    }
-    
-    
     function irAdidas() {
         navigate('/adidas')
     }
@@ -113,8 +107,7 @@ export default function Index(){
             <img className='sne' src='/images/snek.png' alt=''/>
     
             <div className='text'>
-            <h1 onClick={irNike}>Nike</h1>
-                <h1 onClick={irAdidas}>Adidas</h1>
+            <h1 onClick={irAdidas}>Adidas</h1>
                 <h1 onClick={irPuma}>Puma</h1>
                 <h1 onClick={irReebok}>Rebook</h1>
                 <h1 onClick={irNewbalance}>New Balance</h1>

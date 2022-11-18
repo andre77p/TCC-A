@@ -91,11 +91,6 @@ export default function Index(){
     }
     
     
-    function irReebok() {
-        navigate('/reebok')
-    }
-    
-    
     function irNewbalance() {
         navigate('/newbalance')
     }
@@ -114,7 +109,6 @@ export default function Index(){
             <h1 onClick={irNike}>Nike</h1>
                 <h1 onClick={irAdidas}>Adidas</h1>
                 <h1 onClick={irPuma}>Puma</h1>
-                <h1 onClick={irReebok}>Rebook</h1>
                 <h1 onClick={irNewbalance}>New Balance</h1>
                 <input class="pesquisa" type="text" name="nome" placeholder="O que você procura?" autofocus />
                 <img className='carrinho' src='/images/car.png' alt='' onClick={irCarrinho}  />

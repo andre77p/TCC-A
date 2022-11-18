@@ -65,8 +65,6 @@ export default function Carrinho() {
     }, [])
 
 
-
-
     return (
        
         <main className='pagina-carrinho'>
@@ -80,7 +78,7 @@ export default function Carrinho() {
 
         <div id="tn">
                 <img className='lixeira' src='/images/lixeira.png' alt='' />
-                <img className='png' src='/images/Nike-T2.png'  height='90px'/>
+                <img className='png' src='/images/Nike-T2.png'  height='100px'/>
                 <p className='text'>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
                 <p className='preco'>R$ 1.499,99 ou 12x de R$ 125,00</p>
                 <button onClick={irPedido}> Realizar Pedido </button>
@@ -116,10 +114,6 @@ export default function Carrinho() {
         carregarCarrinho={carregarCarrinho} />
          )}
 </div>
-
-
-
-
     </main>
     )
 }

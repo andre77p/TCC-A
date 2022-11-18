@@ -86,11 +86,6 @@ export default function Index(){
     }
     
     
-    function irPuma() {
-        navigate('/puma')
-    }
-    
-    
     function irReebok() {
         navigate('/reebok')
     }
@@ -113,7 +108,6 @@ export default function Index(){
             <div className='text'>
             <h1 onClick={irNike}>Nike</h1>
                 <h1 onClick={irAdidas}>Adidas</h1>
-                <h1 onClick={irPuma}>Puma</h1>
                 <h1 onClick={irReebok}>Rebook</h1>
                 <h1 onClick={irNewbalance}>New Balance</h1>
                 <input class="pesquisa" type="text" name="nome" placeholder="O que você procura?" autofocus />
