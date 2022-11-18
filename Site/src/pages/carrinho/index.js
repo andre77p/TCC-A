@@ -1,3 +1,4 @@
+
 import './index.scss'
 
 import { useEffect, useState } from 'react'
@@ -65,45 +66,32 @@ export default function Carrinho() {
     }, [])
 
 
+
+
     return (
        
         <main className='pagina-carrinho'>
         <nav className='menu'>
         <div className='carrinho'>
-        <h1 className='titulo'> Carrinho </h1>
+        <h1> Carrinho </h1>
         </div>
         </nav>
        
-        <div  className='venda'>
+       <div className='div-principal'>
+            <img className='tenis' src='/images/jordan2.jpeg' alt=''></img>
 
-        <div id="tn">
-                <img className='lixeira' src='/images/lixeira.png' alt='' />
-                <img className='png' src='/images/Nike-T2.png'  height='100px'/>
-                <p className='text'>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                <p className='preco'>R$ 1.499,99 ou 12x de R$ 125,00</p>
-                <button onClick={irPedido}> Realizar Pedido </button>
-                
+            <div>
+            <img className='lixeira' src='/images/lixeira.png' alt=''></img>
+            </div>
+            <div>
+            <p>TÊNIS NIKE AIR JORDAN 1 </p>
+
+            <p>R$ 1.499,99<br></br> ou 12x de R$ 125,00</p>
+
+            <button onClick={irPedido}>Finalizar Pedido</button>
             </div>
 
-            <div id="tn">
-                <img className='lixeira' src='/images/lixeira.png' alt=''/>
-                <img className='png' src='/images/Nike-T2.png'  height='90px'/>
-                <p className='text'>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                <p className='preco'>R$ 1.499,99 ou 12x de R$ 125,00</p>
-                <button onClick={irPedido}>  Realizar Pedido </button>
-                
-            </div>
-
-            <div id="tn">
-                <img className='lixeira' src='/images/lixeira.png' alt=''/>
-                <img className='png' src='/images/Nike-T2.png'  height='90px'/>
-                <p className='text'>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
-                <p className='preco'>R$ 1.499,99 ou 12x de R$ 125,00</p>
-                <button onClick={irPedido}> Realizar Pedido </button>
-                
-            </div>
-
-        </div>
+       </div>
 
         <div className='itens'>
 
@@ -114,6 +102,10 @@ export default function Carrinho() {
         carregarCarrinho={carregarCarrinho} />
          )}
 </div>
+
+
+
+
     </main>
     )
 }
