@@ -10,7 +10,7 @@ const navigate = useNavigate();
      return(
         <main className='pagina-perfil'>
         <nav className='menu'>
-        <div className='perfil'>Perfil</div>
+        <h1 className='perfil'>Perfil</h1>
         </nav>
 
             <div className='pg'>

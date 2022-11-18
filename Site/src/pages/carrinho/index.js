@@ -72,7 +72,7 @@ export default function Carrinho() {
         <main className='pagina-carrinho'>
         <nav className='menu'>
         <div className='carrinho'>
-        <h1> Carrinho </h1>
+        <h1 className='titulo'> Carrinho </h1>
         </div>
         </nav>
        
