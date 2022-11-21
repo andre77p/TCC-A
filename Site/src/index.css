@@ -34,7 +34,7 @@ input[type=checkbox] {
 button {
   outline: none;
   border: none;
-  background-color: #672dc3;
+  background-color: red;
   color: #fff;
   padding: .8em 1.5em;
   border-radius: 2em;

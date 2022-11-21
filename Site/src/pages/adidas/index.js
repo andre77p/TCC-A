@@ -208,7 +208,8 @@ export default function Index(){
                         <p>TÊNIS NIKE AIR VAPORMAX PLUS RUN UTILITY</p>
                         <div className='preco2'><div className='preco'>R$699,99</div> </div>
                     </div>
-                </div>    
+                </div> 
+                <p>a</p>   
             </div>
         </main>
     );

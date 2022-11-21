@@ -93,6 +93,8 @@ export default function Home() {
     function irReebok() {
         navigate('/reebok')
     }
+
+  
     
     
     function irNewbalance() {
@@ -103,15 +105,18 @@ export default function Home() {
     function irPerfil() {
         navigate('/perfil')
     }
+    function irLogin() {
+        navigate('/login')
+    }
 
     return (
         <div className='pagina-home'>
            <nav className='menu'>
-            <img className='sne' src='/images/snek.png' alt=''/>
+           <img className='sne' src='/images/snek.png' alt='' /> 
           
           
             
-            <div className='text'>
+        <div className='text'>
             <h1  onClick={irNike}>Nike</h1>
                 <h1 onClick={irAdidas}>Adidas</h1>
                 <h1 onClick={irPuma}>Puma</h1>
@@ -125,15 +130,15 @@ export default function Home() {
             <img className='sneakers' src='/images/sneak.jpg' alt=''/> 
             <img className='lading' src='/images/ladingpage.jpg' alt=''/> 
             <h1 className='procurado'>Mais Procurados:</h1>
-            <div></div>
-  <div>
+            
+        <div>
 <div className='venda'> 
 
 
 <div id="tn"> 
         
         <img className='heart' src='/images/Heart.png' alt='' onClick={adicionarAoCarrinho}/>
-        <img className='png' src='/images/airmax.webp'  height='90px'/>
+        <img className='arumi' src='/images/airmax.webp'  height='90px'/>
         <p>TÊNIS NIKE AIR MAX PLUS PRETO/PRATEADO</p>
         <div className='preco2'><div className='preco'>R$699,99</div> 
   </div>
@@ -169,7 +174,7 @@ export default function Home() {
 <div id="tn"> 
         
         <img className='heart' src='/images/Heart.png' alt=''  onClick={adicionarAoCarrinho}/>
-        <img className='png' src='/images/balance.webp'  height='90px'/>
+        <img  src='/images/balance.webp'  height='90px'/>
         <p>TÊNIS NEW BALANCE 550 WHITE TEAM RED</p>
         <div className='preco2'><div className='preco'>R$899,99</div> 
   </div>
@@ -177,14 +182,14 @@ export default function Home() {
 
     <div id="tn">
         <img className='heart' src='/images/Heart.png' alt=''  onClick={adicionarAoCarrinho}/>
-        <img className='png' src='/images/adidas5.webp' height='90px'/>
-        <p> Tênis Adidas Kaptir Super Feminino - Branco</p>
+        <img className='png' src='/images/tenisnv.png' height='90px'/>
+        <p> Tênis Adidas Originals Masculino - Branco</p>
         <div className='preco2'><div className='preco'>R$699,99</div> </div>
     </div>
 
     <div id="tn">
         <img className='heart' src='/images/Heart.png' alt=''  onClick={adicionarAoCarrinho}/>
-        <img className='png' src='/images/pumaf.jpg'  height='90px'/>
+        <img  src='/images/pumaf.jpg'  height='90px'/>
         <p>TÊNIS X-RAY PUMA LANÇAMENTO ORIGINAL </p>
         <div className='preco2'><div className='preco'>R$427,70</div> </div>
     </div>
@@ -204,7 +209,7 @@ export default function Home() {
    <div className='div1'> 
         <h1 className='sn'> SNEAKERS -WORLD-</h1>
          
-          <p className='div'>Área Restrita</p>
+          <p className='div' onClick={irLogin}>Área Restrita</p>
 </div>
 
 

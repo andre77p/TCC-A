@@ -2,6 +2,12 @@ import './index.scss';
 
 
 export default function Index() {
+
+    
+    function irNike() {
+        navigate('/nike')
+    }
+
     return(
     <main className='pagina-cadastro'>
         <div className='container-mae'>
@@ -33,7 +39,7 @@ export default function Index() {
                     <input className='descricao' type="text" name="nome" placeholder="Descriçao do produto"></input>
                     <div className='terc-c'>
                         <input className='tamanho' type="text" name="nome" placeholder="Tamanho"></input>
-                        <a href="../estoque" className='botao-salvar'> Salvar </a>
+                        <a href="/" className='botao-salvar' onClick={irNike}> Salvar </a>
                     </div>
                 </div>
 

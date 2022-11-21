@@ -27,8 +27,13 @@ export default function Login() {
         catch (err) {
             toast.error(err.response.data.erro);
         }
+
+       
     }
 
+    function irCadastro() {
+        navigate('/cadastro')
+    }
 
     return (
         <div className='pagina-cli-login'>
@@ -50,7 +55,7 @@ export default function Login() {
 
                     <div className='btn-right'>
                         <label></label>
-                        <button onClick={logarCliente}> Logar </button>
+                        <button onClick={irCadastro}> Logar </button>
                     </div>
 
                     <div></div>
