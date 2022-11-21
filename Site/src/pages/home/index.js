@@ -125,6 +125,7 @@ export default function Home() {
             <img className='sneakers' src='/images/sneak.jpg' alt=''/> 
             <img className='lading' src='/images/ladingpage.jpg' alt=''/> 
             <h1 className='procurado'>Mais Procurados:</h1>
+            <div></div>
   <div>
 <div className='venda'> 
 
